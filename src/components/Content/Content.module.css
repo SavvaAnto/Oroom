@@ -1,0 +1,12 @@
+.content {
+    grid-area: content;
+    background-color: beige;
+}
+  
+.room img {
+    width: 90%;
+}
+  
+.owner img {
+    width: 20%;
+}

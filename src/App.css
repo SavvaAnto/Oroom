@@ -5,34 +5,7 @@
   display: grid;
   grid-template-areas:
   "header header"
-  "nav content";
+  "navbar content";
   grid-template-rows: 60px 1fr;
   grid-template-columns: 2fr 10fr;
-}
-
-.header {
-  grid-area: header;
-  background-color: azure;
-}
-
-.header img {
-  height: 60px;
-}
-
-.nav {
-  grid-area: nav;
-  background-color: bisque;
-}
-
-.content {
-  grid-area: content;
-  background-color: beige;
-}
-
-.content .room img {
-  width: 90%;
-}
-
-.content .owner img {
-  width: 20%;
 }

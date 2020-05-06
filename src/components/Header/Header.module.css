@@ -1,0 +1,8 @@
+.header {
+  grid-area: header;
+  background-color: azure;
+}
+
+.header img {
+  height: 60px;
+}
